@@ -1,0 +1,28 @@
+/*displays dark red borders around each cell*/
+.table1 {
+	border-style: solid;
+	border-color: darkred;
+	border-width: 4px;
+}
+
+/*Should display blue background and white text when mouse hovers cell*/
+td:hover {
+	background-color: blue;
+	color: white;
+}
+
+/*should make top row have white background with blue text*/
+tr, th {
+	background-color: white;
+	color: blue;
+}
+
+/*remaining rows with yellow background and black text*/
+tr, td {
+	border-style: solid;
+	border-width: 4px;
+	border-color: darkred;
+	background-color: yellow;
+	color: black
+}
+

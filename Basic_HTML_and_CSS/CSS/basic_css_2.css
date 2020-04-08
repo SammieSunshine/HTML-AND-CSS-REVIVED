@@ -1,0 +1,13 @@
+/*Example of a css comment*/
+p {
+	color: blue;
+	background: yellow;
+	font-style: italic;
+	text-align: center;
+}
+
+/*Example of the text-shadow property*/
+h3{
+	text-shadow: 2px 2px blue
+	
+}
