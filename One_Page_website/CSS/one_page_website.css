@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+form input[type="text"] {
+    width: 20% ;
+    margin: 2px;
+    border: 5px solid #5f2706 ;
+    border-radius: 5px; ;
+}
+/*==================================
+SAVE POINT 4/8/2020 @11:04AM. COME 
+BACK TO PAGE 348; GITHUB DESKTOP:
+REORGANIZED ALL FOLDERS. CAN'T 
+SUBMIT URL FOR REVIEW. ASK FOR HELP
+AFTER BREAK.
+==================================*/
