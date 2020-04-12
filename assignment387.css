@@ -1,0 +1,48 @@
+/*Transparent color with background image*/
+body {
+    color: black;
+    text-align: center;
+    background-color: #ebe0d3;
+    background-size:cover;
+    background-image: url("../html-and-css-revived/paintspill.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+/*tooltip popup classes and properties*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    background-color: #0f73adad;
+    color: #faebd7;
+    border:4px ridge #1d6691;
+
+  }
+
+  /*tooltip styling*/
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #4f5055;
+    color: #fff;
+    opacity: 90%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /*positioning*/
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+/*tooltip hover popup*/
+.tooltip:hover .tooltiptext {
+    visibility:visible;
+}
+
