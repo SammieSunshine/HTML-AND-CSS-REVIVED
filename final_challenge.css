@@ -1,0 +1,95 @@
+
+body {
+    text-align: center;
+}
+
+
+/*Image in center*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+/*Centered image with a filter*/
+.filter1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+    filter: saturate(10);
+}
+
+/*centered image with multiple filters*/
+.filter2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    filter:saturate(3) invert(5) brightness(1);
+}
+
+/*image with round corners*/
+.round1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    filter: sepia(50%);
+    border-radius: 50px; 
+}
+
+/*Image with two round corners*/
+.round2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    filter: sepia(50%);
+    border-radius: 50px 0px; 
+}
+
+/*Properties for entire table*/
+table,th,td{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border: 7px ridge #8f3b3b;
+    padding: 5px #5c1b13;
+}
+
+/*background color on table header*/
+th{
+    font: bold;
+    color: #fff;
+    background-color: #803e42;
+}
+
+/*container that holds image and text */
+.container{
+    position: relative;
+    color: #fff;
+    padding: 10px;
+   }
+
+.top-left {
+    z-index: -1;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+.bottom-left {
+    z-index: -1;
+    position: absolute;
+    bottom: 8px; 
+    left: 16px;  
+}
+
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
