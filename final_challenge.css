@@ -73,6 +73,7 @@ th{
     padding: 10px;
    }
 
+/*--Center text to image*/
 .top-left {
     z-index: -1;
     position: absolute;
