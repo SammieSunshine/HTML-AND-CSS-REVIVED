@@ -42,7 +42,6 @@ li a:hover:not(.active) {
 }
 
 
-
 /*Image in center*/
 .center {
     display: block;
@@ -112,7 +111,7 @@ th{
     padding: 10px;
    }
 
-/*--Center text to image*/
+/*--Center text on image top*/
 .text1 {
     z-index: 100;
     position: relative;
@@ -123,7 +122,7 @@ th{
     font-weight: bold;
 }
 
-
+/*centered text on image bottom*/
 .text2 {
     z-index: 100;
     position: relative;
@@ -134,7 +133,73 @@ th{
     font-weight: bolder;
 }
 
+/*Two equal columns that float next to each other*/
+.column {
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    color: #c2bbbb;
+    box-sizing: border-box;
+}
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+/*hover over all p elements*/
+p:hover {
+    text-align: center;
+    background-color: #6ba36d;
+    width: 10%;
+}
+
+/*Image with text overlay*/
+.photo-container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #6ba36d;
+}
+
+.photo-container:hover .overlay{
+    opacity: 1;
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*footer.*/
 footer{
     text-align: center;
     font-weight: bold;
