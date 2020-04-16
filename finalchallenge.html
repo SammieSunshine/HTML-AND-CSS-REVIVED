@@ -19,6 +19,9 @@
             <h1>HTML5 and CSS3 Final Challenge</h1>
         </header>      
 
+        <!--End Navbar-->
+        
+        <!--Center image-->
         <div>
             <h3>Centered Image</h3>
                 <p> Here's an example of a centered Image.</p>
@@ -26,6 +29,8 @@
                 <p>By setting the width percentage of 10% and setting the margins left and right to auto, I was able to able to change the picture's size. </p>
         </div>
         
+        <!--End Center Image-->
+        <!--CSS filters-->
         <div>
             <h3>Filtered</h3>
                 <p>This is an example of a filtered image</p>
@@ -36,6 +41,9 @@
                     <p>Sweet dreams!</p>
         </div>
 
+        <!--End CSS filters-->
+
+        <!--Round-edged image-->        
         <div>
             <h3>Image with rounded edges</h3>
                 <p>Let's take a look at a picture with rounded edges.</p>
@@ -47,7 +55,9 @@
                 <p>As you can see, only two of the corners are rounded. In this case, border-radius was set to 50px and 0px. </p>
         </div>
             
-    <!--Color Table Header-->        
+       <!--End Round-edged image-->        
+
+    <!--Table-->        
         <div>
             <table>
                 <caption>An example of a table</caption>
@@ -70,13 +80,15 @@
                 </tr>
             </table>
         </div>
-            
+        <!--End Table-->   
+                         
         <!--Image with CSS text-->
         <div class="container">
             <img src="../html-and-css-revived/riphiggins.jpg" alt="rip" style="width: 30%;">
                 <p class="text1">GETTIN' REAL TIRED OF</p>
                 <p class="text2">YEH' CRAP ,'ENRY 'IGGINS.</p>
         </div>
+        <!-- End Image with CSS text-->
 
         <!--Two-column layout-->
         <div class="row">
@@ -90,10 +102,14 @@
                 <p>This is column 2</p>
             </div>
         </div>
+        <!--End two-column layout-->
 
-        <!--P element with hover-->
-        <p id="para">There are sentences on this page that light up when the cursor is placed on them. These are p elements with a hover selector.</p>
-        
+        <!--P:hover-->
+        <div>
+        <p>This sentence use the hover effect. If you mouse over it, you'll notice that it "lights up".</p>
+        </div>
+        <!--end P:hover-->
+
         <!--Image with overlay-->
         <div class="photo-container">
             <img src="../html-and-css-revived/jarvis.jpg" alt="jarvis" class="image">
@@ -101,9 +117,30 @@
                     <div class="text">
                         This is an image with a text overlay!
                     </div>
-
                 </div>
         </div>
+        <!--end Image with overlay-->
+
+        <!-- Embed video-->
+        <div>
+            <video width="240" height="320" controls autoplay muted loop>
+                <source src="../html-and-css-revived/guitar.mp4" type="video/mp4" >
+            </video>
+        </div>
+        <!--end embed video-->
+
+        <!--video with overlay-->
+        <div class="photo-container">
+            <video width="240" height="320" controls autoplay muted loop>
+            <source src="../html-and-css-revived/dance.mp4" type="video/mp4" class="image"> 
+                <div class="overlay">
+                    <div class="text">
+                        Check out his moves!
+                    </div>
+                </div>
+            </video>
+        </div>
+        <!--end video with overlay-->
 
 
 
