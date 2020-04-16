@@ -197,11 +197,9 @@ p:hover{
 
 .video
  {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    max-width: 100%;
-    z-index: -1;
+opacity: 1;
+display: block;    
+transition: .5s ease;
 }
 
 .video:hover .opacity{
