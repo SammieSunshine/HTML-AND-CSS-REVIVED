@@ -1,54 +1,50 @@
-
 body {
     text-align: center;
 }
 
 /*Fixed Nav bar*/
-ul {
-    
-    list-style-type: none;
+.Navbar {
+    overflow: hidden;
+    background-color: #6ba36d;
     position: fixed;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #fff;
-    border: 5px solid #6ba36d;
+    top: 0;
+    width: 100%;
 }
 
-li a{
+.Navbar a{
+    float: left;
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-}
-
-li {
+    font-family: 'Oswald', sans-serif;
     text-align: center;
-    border-bottom: none;
 }
 
-li:last-child {
-    border-bottom: none;
+.Navbar a:hover {
+    background-color: #fff;
+    color: #2d2d49;
+    font-weight: bold;
 }
 
-li a.active {
+.Navbar a.active {
     background-color: #6ba36d;
     color: #fff;
 }
 
-li a:hover:not(.active) {
-    background-color: #6ba36d;
+.Navbar a:hover:not(.active) {
+    background-color: #2d2d49;
     color: #fff;
 }
 
 
 /*Image in center*/
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-}
+    background: #736fad;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20%;
 
 /*Centered image with a filter*/
 .filter1 {
@@ -126,8 +122,7 @@ th{
 .text2 {
     z-index: 100;
     position: relative;
-    bottom: 8px; 
-    left: 16px;  
+    width: 100%;
     transform: translateY(-95px);
     font-size: 25px;
     font-weight: bolder;
@@ -197,9 +192,11 @@ p:hover{
 
 .video
  {
-opacity: 1;
-display: block;    
-transition: .5s ease;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    z-index: -1;
 }
 
 .video:hover .opacity{

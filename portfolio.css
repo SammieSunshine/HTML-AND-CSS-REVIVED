@@ -1,0 +1,34 @@
+body {
+    margin: 0%;
+}
+
+.Navbar {
+    overflow: hidden;
+    background-color: #e6abab;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.Navbar a {
+    float: left;
+    display: block;
+    color: #504848;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Antic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Navbar a:hover {
+    background-color: #e6abab;
+    color: #504848;
+    font-weight: bold;
+}
+
+.Navbar a.active {
+    background-color: #796e6e;
+}
+
