@@ -2,6 +2,7 @@ body {
     margin: 0%;
 }
 
+
 /*Navbar*/
 .Navbar {
     overflow: hidden;
@@ -71,7 +72,7 @@ body {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #9ee2e2;
+    background-color: #2f7474;
 }
 
 .Column_3 {
@@ -80,7 +81,7 @@ body {
     padding: 10px;
     padding-top: 3.5%;
     height:450px;
-    background-color: #357575;
+    background-color: #9ee2e2;
 }
 
 
@@ -97,11 +98,12 @@ h1 {
     font-family: "Trebuchet MS", Optima;
     text-align: center;
     margin-top: 3%;
-    color: #373a3a;
+    color: #99d8d8;
 }
 
 /*P elements*/
 p {
+    color: #408585;
     font-family: Verdana, Geneva, Tahoma, sans-serif bold;
     text-align: justify;
     letter-spacing: 1px;
@@ -123,7 +125,7 @@ center {
 
 /*anchor elements */
 a {
-    color: #456b8f;
+    color: #2287e6;
 }
 
 /*quotation elements*/
@@ -147,7 +149,7 @@ img {
 input[type=text] {
     width: 100%;
     padding: 12px;
-    border: 1px solid #cdffff;
+    border: 1px inset #cdffff;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -196,7 +198,7 @@ center:hover {
 
 /*Paragraph element hover effect*/
 p:hover {
-    color: #6666a8;
+    color: #84a3a3;
     transition: transform 1s;
     transform: scale(1.01);
 }
